@@ -1,7 +1,7 @@
+function taxCalc(number :number,taxYear =2022){
+    if(taxYear < 2022)
+        return number * 1.2
+    return number * 1.3
+}
 
-const enum Size {Small = 1000,Medium,Big}
-let Mysize : Size = Size.Big
-console.log(Mysize);
-
-
-//enum
+taxCalc(10_000)
