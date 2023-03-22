@@ -1,4 +1,7 @@
 
-let something : [number,string] = [1,'ewb']
-//here we are adding two types in one array this is tuple
+const enum Size {Small = 1000,Medium,Big}
+let Mysize : Size = Size.Big
+console.log(Mysize);
 
+
+//enum
