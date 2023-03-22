@@ -1,3 +1,4 @@
-let numbers : number[] = [];
-numbers[0] = 1
-numbers[1] = 'qef'
+
+let something : [number,string] = [1,'ewb']
+//here we are adding two types in one array this is tuple
+
