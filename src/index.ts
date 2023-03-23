@@ -1,3 +1,13 @@
-// let employee : {id:number,name?:string} = {id:1}
-// let employee : {id:number,name:string} = {id:1,name:''}
-let employee : {readonly id:number,name:string} = {id:1,name:''}
+type Employee = {
+    readonly id : number,
+    name : string,
+    retire : (date : Date) => void
+}
+
+let employee : Employee = {
+    id:1,
+    name : 'string',
+    retire : (date : Date)=>{
+        console.log(date);
+    }
+}
